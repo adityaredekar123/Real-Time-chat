@@ -9,32 +9,31 @@ Download zip file
 #### - Create Virtual Environment
 #####
 
-python3 -m venv venv
+python3 -m venv venv <br>
 source venv/bin/activate
 
 
 ###### # Windows
 
-pip install virtualenv 
-virtualenv venv 
-venv\Scripts\activate.bat 
-or
+pip install virtualenv <br>
+virtualenv venv <br>
+venv\Scripts\activate.bat <br>
+or<br>
 .\venv\Scripts\Activate.ps1
 
 <br>
 
 #### - Install dependencies
 
-pip install --upgrade pip
-pip install -r requirements.txt
+pip install --upgrade pip<br>
+pip install -r requirements.txt<br>
 
 
-<br>
 
 #### - Migrate to database
 
-python manage.py migrate
-python manage.py createsuperuser(optional)
+python manage.py migrate<br>
+python manage.py createsuperuser(optional)<br>
 
 
 <br>
