@@ -5,8 +5,7 @@
 #### Getting the files
 Download zip file or <br>
 Clone with git 
-```
-```
+
 <br><br><br>
 
 ## Setup
