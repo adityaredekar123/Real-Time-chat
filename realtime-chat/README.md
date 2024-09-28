@@ -21,7 +21,7 @@ source venv/bin/activate
 ```
 pip install virtualenv 
 virtualenv venv 
-venv\Scripts\activate.bat 
+.\venv\Scripts\activate 
 ```
 
 <br>
@@ -36,8 +36,9 @@ pip install -r requirements.txt
 
 #### - Migrate to database
 ```
+python manage.py makemigrations
 python manage.py migrate
-python manage.py createsuperuser(optional)
+python manage.py createsuperuser(admin)
 ```
 
 <br>
